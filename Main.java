@@ -8,5 +8,6 @@ public class Main {
         Student student=(Student) context.getBean("student");
         System.out.println("Name:"+student.getName());
         System.out.println("Age:"+student.getAge());
+        System.out.println("我修改了这个文件");
     }
 }
